@@ -1,0 +1,131 @@
+body{
+    margin: 1em;
+    padding-top: 3em;
+}
+
+body{
+        min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+
+h1 {
+    border-style : none;
+    padding-top : 1em;
+    padding-bottom : 1em;
+    padding-left: 1em;
+    background-color : rgb(146, 167, 187);
+    color : white;
+
+}
+
+h2{
+    color:blueviolet; 
+}
+
+section{
+    margin:1rem;
+    padding:2rem;
+    background-color:blueviolet;
+
+    border-radius: 2em;
+    color: white;
+
+    
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+  }
+
+aside{
+ 
+    border-style: dotted;
+
+    border-color: rebeccapurple;
+    background-color:pink;
+
+}
+
+/*class*/
+.important{
+    color: firebrick;
+}
+
+.video{
+    margin: 1rem;
+    margin-right: 2rem;
+}
+
+.icon{
+    width:1rem;
+    height: auto;
+}
+
+/* css from table generator*/
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin:auto;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top
+}
+/* end of css from table generator*/
+
+#picture{
+    width: 11rem;
+    height: auto;
+    margin: 1rem;
+    align-content: center;
+}
+
+#small-picture{
+    width: 24rem;
+    height: auto;
+    margin: 1rem;
+    align-content: center;
+}
+
+
+#myname{
+    color: firebrick;
+}
+#details{
+margin-left:27em;
+
+}
+input {
+	margin: 10px;
+}
+  
+
+/*validate html and css with link in instructions*/
