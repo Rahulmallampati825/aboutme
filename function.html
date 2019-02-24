@@ -84,8 +84,10 @@
       <p id="sample"></p>
 
       local storage history
-      <button id="store">store value</button>
-      <p id="save"></p>
+      <!-- <button id="store">store value</button>
+      <p id="save"></p> -->
+      <button onclick="store()">store value</button>
+      <p id="storage1"></p>
       <button id="r" onclick="AJAX()" class="button">Click</button>
       <div id="content">
       </div>
@@ -94,11 +96,15 @@
 function math() {
 	var radius = document.getElementById("radius").value;
     var height = document.getElementById("height").value;
-    
-   
-    document.getElementById('sample').innerHTML = Math.PI*radius*radius*height;
+    var res = Math.PI*radius*radius*height;
+    localStorage.setItem("store",res);
+    document.getElementById('sample').innerHTML = res;
 	
-}</script>
+}
+function store(){
+	document.getElementById('storage1').innerHTML = "volume of cylinder  " + localStorage.getItem("store")
+}
+</script>
 
     </main>
 
