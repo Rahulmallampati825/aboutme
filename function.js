@@ -12,3 +12,18 @@ const add = document.getElementById("store");
 add.addEventListener('click', function () {
 	document.getElementById("save").innerHTML = localStorage.getItem("store")
 })
+
+var R = new XMLHttpRequest();
+R.open('GET', 'https://codepen.io/mallampati-rahul/pen/ErqdGr.html');
+R.onreadystatechange = function () { 
+   
+    if (R.readyState === 4) {
+     
+        document.getElementById('content').innerHTML = R.responseText;
+    }
+};
+
+function AJAX() {
+    R.send();
+    document.getElementById('r').style.display = 'none';
+}
